@@ -24,7 +24,7 @@ import Services from '../../components/services/Services';
 export default function PrivateRoute() {
   return (
     <>
-      <Suspense fallback={<Loading />}>
+{/*       <Suspense fallback={<Loading />}> */}
         <Router>
           <Routes>
             <Route element={<Sidebar />}>
@@ -39,7 +39,7 @@ export default function PrivateRoute() {
             </Route>
           </Routes>
         </Router>
-      </Suspense>
+{/*       </Suspense> */}
     </>
   );
 }
