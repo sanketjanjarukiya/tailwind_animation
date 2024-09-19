@@ -7,7 +7,6 @@ const ProgressContainer = styled.div`
   height: 8px;
 //   background: transparent;
   position: sticky;
-
 `;
 const ProgressBar = styled.div`
   height: 4px;
@@ -16,11 +15,7 @@ const ProgressBar = styled.div`
   width: ${(props) => props.width || 0}%;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
-
-
-
-  
-
+  z-index: 1;
   position: sticky
 `;
 const ProgressText = styled.span`
